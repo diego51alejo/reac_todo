@@ -1,0 +1,20 @@
+.barra_busqueda{
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 12px 12px;
+    align-self: center;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    margin: 10px auto;
+    display: flex;
+}
+
+
+.barra_busqueda::placeholder {
+    color: #A5A5A5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2rem;
+  }

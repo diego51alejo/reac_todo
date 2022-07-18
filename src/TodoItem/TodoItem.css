@@ -1,0 +1,37 @@
+.tarea{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-content: space-around;
+    background: #4E906D4D;
+    list-style: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+.checkbox{
+    background-image: url('../images/uncheck.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox_true{
+    background-image: url('../images/check.svg');
+}
+
+.mini_menu{
+    background-image: url('../images/more-circle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+}
+
+.tarea_true{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
